@@ -1,0 +1,46 @@
+{
+  "person": [
+    {
+      "namejson": "vedu",
+      "email": "vedu@gmail.com",
+      "phone": 7896576767,
+      "id": 2
+    },
+    {
+      "namejson": "samu",
+      "email": "samu@gmail.com",
+      "phone": 7896578989,
+      "id": 2
+    },
+    {
+      "namejson": "Rohan",
+      "emailjson": "Rohan@gmail.com",
+      "phonejson": "7865439857",
+      "id": 3
+    },
+    {
+      "namejson": "Nanu",
+      "emailjson": "Nanu@gmail.com",
+      "phonejson": "7889476587",
+      "id": 4
+    },
+    {
+      "namejson": "Nisha",
+      "emailjson": "Nisha02@gmail.com",
+      "phonejson": "888899907",
+      "id": 5
+    },
+    {
+      "namejson": "Narendra",
+      "emailjson": "Narendra@gmail.com",
+      "phonejson": "888889907",
+      "id": 6
+    },
+    {
+      "namejson": "Saurabh",
+      "emailjson": "SaurabhKulkarni@gmail.com",
+      "phonejson": "7796208539",
+      "id": 7
+    }
+  ]
+}

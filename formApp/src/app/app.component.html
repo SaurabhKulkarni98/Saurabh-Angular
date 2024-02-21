@@ -1,0 +1,39 @@
+<form #userform="ngForm" (ngSubmit)="fun(userform.value)">
+  {{userform.value|json}}
+  <div>
+    <label >
+      username
+    </label>
+    <input type="text" name="username" class="form-control" [(ngModel)]="name1" #username="ngModel" required 
+    [class.is-invalid]="username.touched && username.invalid" pattern="^[a-zA-Z]+$">
+    <div *ngIf="username.touched && username.invalid">
+      <small class="text-danger">Invalid pattern</small>
+
+    </div>
+  </div>
+
+  <div>
+    <label >
+      phone
+    </label>
+    <input type="text" name="phone" class="form-control" [(ngModel)]="phone1" #userphone="ngModel" required 
+    [class.is-invalid]="userphone.touched && userphone.invalid" pattern="[7-9]{1}[0-9]{9}">
+    <div *ngIf="userphone.touched && userphone.invalid">
+      <small class="text-danger">Invalid pattern</small>
+
+    </div>
+  </div>
+  
+
+  <div>
+    <label >
+      email
+    </label>
+    <input type="text" name="email" class="form-control" [(ngModel)]="email1" #usermail="ngModel" required 
+    [class.is-invalid]="usermail.touched && usermail.invalid"  >
+  </div>
+ 
+<div>
+  <input type="submit" value="submit" class="btn btn-primary">
+</div>
+</form>

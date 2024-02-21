@@ -1,0 +1,10 @@
+a{
+    color:blue;
+    background-color: yellow;
+    border: 3px solid red;
+    padding: 6px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: orange
+}
